@@ -22,6 +22,8 @@
 				        data: form_data,                         
 				        type: 'post',
 				        success: function(php_script_response){
+						location.reload();
+
 				           console.log("success");
 				        }
 				     });
