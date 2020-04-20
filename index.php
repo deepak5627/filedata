@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -22,9 +24,8 @@
 				        data: form_data,                         
 				        type: 'post',
 				        success: function(php_script_response){
-						location.reload();
-
-				           console.log("success");
+				        	console.log("success");
+				        	location.reload();
 				        }
 				     });
 				});
